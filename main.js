@@ -29,3 +29,28 @@ document.addEventListener('click', function(event) {
         });
     }
 });
+
+
+const swiper = new Swiper('.swiper', {
+    direction: 'horizontal',
+    loop: true,
+
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    autoplay: {
+        delay: 3000,
+        reverseDirection: true,
+
+      },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });

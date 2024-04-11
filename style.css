@@ -507,6 +507,10 @@ nav {
 
 }
 
+.img_cover:hover .cover {
+  transform: scale(1.2);
+}
+
 .h1 {
   font-size: 26px;
   text-align: center;
